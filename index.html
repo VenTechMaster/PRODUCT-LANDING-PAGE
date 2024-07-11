@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo"
+            src="data:image/jpeg;base64,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"
+            style="height: 100px;width: 100px;border-radius: 50px;">
+        <nav id="nav">
+            <a href="#home" class="active" onclick="navi(0)" id="naviga">Home</a>
+            <a href="#about" onclick="navi(1)" id="navigb">About</a>
+            <a href="#products" onclick="navi(2)" id="navigc">Products</a>
+            <a href="#contact" onclick="navi(3)" id="navigd">Contact</a>
+        </nav>
+    </header>
+    <section class="content" id="home">
+        <div class="homequote">
+            <h1>"The new reality is closer than you think"</h1>
+        </div>
+        <br>
+        <div>
+            <p class="homepara"><br>Our luxurious watches are a testament to exceptional craftsmanship and
+                sophistication.
+                Meticulously designed with the finest materials, each timepiece exudes elegance and precision.
+                From classic styles to modern innovations, our collection caters to diverse tastes and occasions.
+            </p>
+        </div>
+        <div class="homeimage">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71UdR4lo7OL._AC_UL600_SR600,600_.jpg" alt=""
+                srcset="">
+        </div>
+    </section>
+    <section class="content" id="about">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" id="radio1" name="radios">
+                <input type="radio" id="radio2" name="radios">
+                <input type="radio" id="radio3" name="radios">
+                <input type="radio" id="radio4" name="radios">
+
+                <div class="slide first">
+                    <img src="https://m.media-amazon.com/images/I/71XIMVk4CHL._AC_SX679_.jpg">
+                </div>
+                <div class="slide">
+                    <img src="https://m.media-amazon.com/images/I/61KhRvrgCWL._AC_SX679_.jpg">
+                </div>
+                <div class="slide">
+                    <img src="https://m.media-amazon.com/images/I/717gazh3OzL._AC_SX679_.jpg">
+                </div>
+                <div class="slide">
+                    <img
+                        src="https://static2.4gsm.com/eng_pl_Ringke-Bezel-Styling-overlay-Samsung-Galaxy-Watch-5-Pro-45-mm-stainless-steel-overlay-for-the-outer-rim-of-the-watch-envelope-black-133922_2.jpg">
+                </div>
+                <div class="auto">
+                    <div class="auto1"></div>
+                    <div class="auto2"></div>
+                    <div class="auto3"></div>
+                    <div class="auto4"></div>
+
+                </div>
+            </div>
+            <div class="manual">
+                <label for="radio1" class="manuals"></label>
+                <label for="radio2" class="manuals"></label>
+                <label for="radio3" class="manuals"></label>
+                <label for="radio4" class="manuals"></label>
+            </div>
+        </div>
+        </div>
+        <div>
+            <br>
+            <h2>About the watch</h2>
+            <p>A luxury watch is more than just a timekeeping device; it represents the pinnacle of horological artistry
+                and
+                refinement.
+                Meticulously crafted by skilled artisans, these timepieces boast precision engineering, exquisite
+                materials,
+                and intricate detailing.
+                Often associated with prestigious brands and heritage, luxury watches offer a blend of elegance, status,
+                and
+                lasting value.
+                Their timeless designs make them cherished heirlooms and prized possessions, appealing to those who
+                appreciate the finer things
+                in life and seek to make a statement of sophistication and success.</p>
+        </div>
+    </section>
+    <section class="content" id="products">
+        <h1>Similar Products</h1>
+        <br>
+        <div class="productsimg1">
+            <img class="productimg" src="https://m.media-amazon.com/images/I/71dgBg+vhOL._AC_SX679_.jpg">
+            <p> Blue strap stainless steel metal replacement wristbands</p>
+        </div>
+        <div class="productsimg2">
+            <img class="productimg" src="https://m.media-amazon.com/images/I/71fc5y-hKbL._AC_SX522_.jpg">
+            <p> Silver strap stainless steel metal replacement wristbands</p>
+        </div>
+        <div class="productsimg3">
+            <img class="productimg" src="https://m.media-amazon.com/images/I/712XGh3IFGL._AC_SX522_.jpg">
+            <p> Green strap stainless steel metal replacement wristbands</p>
+        </div>
+    </section>
+    <section class="content" id="contact">
+        <h1>Reach us</h1>
+        <div>
+            <div>
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/office-address-icon.png"
+                    class="icon" style="width: 35px;height: 35px;">
+                    <div class="content">
+                <h2 class="text">Address</h2>
+                <p>Road Krishna Nagar,<br>Chokkampudur,<br>Coimbatore-631027</p>
+            </div>
+            </div>
+            <div>
+                <img src="https://www.freeiconspng.com/thumbs/phone-icon/white-phone-icon-png--clipart-best-30.png"
+                    class="icon"
+                    style="width: 50px;height: 50px;border: 1px solid white;margin-left: 14.2%;">
+                    <div class="content">
+                <h2 class="text">Phone</h2>
+                <p>507-475-5575</p>
+                <p>507-475-5576</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
+                <div class="content">
+                <h2 class="text" style="margin-top: -3.7%;">E-mail</h2>
+                <p>timeelegant@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <form>
+                <h3>Send message</h3>
+                <hr>
+                <div class="inputbox">
+                  <input type="text" id="username" placeholder="Name" required="required">
+                  <hr class="hr">
+                </div>
+                <div class="inputbox">
+                  <input type="email" id="email" placeholder="Email-id" required="required">
+                  <hr class="hr">
+                </div>
+                <div class="content">
+                  <br>
+                  <textarea cols="40" rows="10" style="margin-left: -3%;">Write your message here</textarea>
+                </div>
+                <center>
+                  <div>
+                    <input type="submit" value="send" onclick="Redirect(event)" class="center">
+                  </div>
+                </center>
+              </form>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
